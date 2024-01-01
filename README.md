@@ -1,8 +1,8 @@
-📍 Tourist Travel Agency
+📍 Delicious food
 
-## ❕ This project is a ticket reservation website template developed using html and css technologies and fully responsive to provide a good user experience to the site user.
+## ❕ Delicious food is an online website template developed with only html and css technologies and fully responsive to provide a good user experience to the site user.
 
-### 🔗 Website URL : https://moein-developer1.github.io/Tourist-travel-agency/
+### 🔗 Website URL : https://moein-developer1.github.io/delicious-food/
 
 ### ✍ Developers => 👨‍💼 Name: Mohammad Moein ghiyasvand , 📧 Email: moeinghiasvand11@gmail.com
 
