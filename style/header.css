@@ -1,0 +1,59 @@
+.header{
+    grid-column: 1/-1;
+    background:linear-gradient(to bottom , #4d4c4c4f,#000000),url(../image/frame-meat-vegetables.jpg);
+    color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    gap: 20px;
+    grid-template-rows: repeat(3,max-content);
+    grid-template-columns: 1fr;
+    justify-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.header-title{
+    font-size: 30px;
+}
+
+.header-text{
+    font-size: 40px;
+}
+
+.header-text span {
+    color: orange;
+}
+
+.header-btn{
+    padding: 1rem 1.5rem;
+    font-size: 20px;
+    background-color: orange;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 0.4rem;
+    transition: all 0.6s;
+}
+
+.header-btn:hover{
+    background-color: #fff;
+    color: orange;
+    cursor: pointer;
+}
+
+@media screen and (max-width:576px) {
+    .header-title{
+        font-size: 20px;
+    }
+
+    .header-text{
+        font-size: 30px;
+    }
+
+    .header-btn{
+        font-size: 15px;
+    }
+}

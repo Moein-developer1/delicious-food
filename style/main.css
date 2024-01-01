@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.container{
+    display: grid;
+    grid-template-rows: 80vh repeat(5,max-content);
+    grid-template-columns: repeat(6,1fr);
+}
+
+.section-title{
+    text-align: center;
+    color: orange;
+    font-size: 30px;
+    margin: 2rem 0;
+}
+
+.section-title::after,
+.section-title::before{
+    content: '';
+    display: inline-block;
+    width: 50px;
+    height: 1px;
+    background-color: black;
+    vertical-align: middle;
+    position: relative;
+}
+
+.section-title::before{
+    right: 10px;
+    margin-left: auto;
+}
+.section-title::after{
+    left: 10px;
+    margin-right: auto;
+}

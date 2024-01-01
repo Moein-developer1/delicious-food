@@ -1,0 +1,212 @@
+@font-face {
+    font-family: 'Times New Roman';
+    src: url(../font/Times-new-roman-italic.ttf);
+}
+
+.reserve{
+    grid-column: 1/-1;
+    padding: 3rem 0;
+}
+
+.reserve-section{
+    display: grid;
+    grid-template-columns: 50px repeat(4,1fr) 50px;
+    padding: 2rem;
+    background: linear-gradient(to bottom , #4d4c4c4f,#000000),url(../image/resturant\ 4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.reserve-section-left{
+    grid-column: 2/3;
+    background-color: rgba(0, 0, 0, 0.65);
+    color: #fff;
+    display: grid;
+    grid-template-rows: 2fr 1fr repeat(3,0.5fr) 3fr;
+    gap: 10px;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+}
+
+.reserve-section-left-title{
+    font-size: 22px;
+    color: goldenrod;
+}
+
+.reserve-section-left-title2{
+    font-size: 20px;
+    color: goldenrod;
+    margin-bottom: 0.5rem;
+}
+
+.parantez{
+    color: goldenrod;
+}
+
+
+.reserve-section-left-text{
+    font-family: 'Times New Roman';
+    color: goldenrod;    
+    justify-self: center;
+    align-self: center;
+}
+
+
+.reserve-section-right{
+    grid-column: 3/6;
+    background-color: rgba(255, 255, 255, 0.8);
+    display: grid;
+    grid-template-rows: 0.5fr 1fr 0.5fr 1fr 3fr;
+    gap: 10px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.reserve-section-right-title{
+    font-size: 22px;
+    color: goldenrod;
+}
+
+.reserve-section-right-text{
+    font-size: 18px;
+}
+
+.reserve-section-right-box{
+    justify-self: center;
+    align-self: center;
+    display: flex;
+    gap: 70px;
+}
+
+.reserve-section-right-img{
+    width: 140px;
+    border-radius: 50%;
+}
+
+@media screen and (max-width:992px) {
+    
+
+    .reserve-section{
+        padding: 1.5rem 0;
+    }
+
+    .reserve-section-left-title{
+        font-size: 18px;
+    }
+    
+    .reserve-section-left-title2{
+        font-size: 16px;
+    }
+    
+    .reserve-section-right-img {
+        width: 110px;
+    }
+
+    .reserve-section-left-national{
+        font-size: 12px;
+    }
+
+    .reserve-section-left-text{
+        font-size: 14px;
+    }
+
+    .reserve-section-right-title{
+        font-size: 18px;
+    }
+    .reserve-section-right-text{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .reserve-section{
+        grid-template-columns: 30px repeat(4,1fr) 30px;
+    }
+
+    .reserve-section-left{
+        padding: 0.5rem;
+    }
+
+    .reserve-section-left-title{
+        font-size: 16px;
+    }
+
+    .reserve-section-left-title2{
+        font-size: 14px;
+    }
+
+    .reserve-section-left-national{
+        font-size: 10px;
+    }
+
+    .reserve-section-left-text{
+        font-size: 12px;
+    }
+
+    .reserve-section-right{
+        grid-template-rows: max-content;
+        padding: 1rem;
+    }
+
+    .reserve-section-right-title{
+        font-size: 16px;
+    }
+
+    .reserve-section-right-text{
+        font-size: 13px;
+    }
+
+    .reserve-section-right-box{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width:578px) {
+   
+    .reserve-section-left-title{
+        font-size: 14px;
+    }
+
+    .reserve-section-left-title2{
+        font-size: 12px;
+    }
+
+    .reserve-section-left-national{
+        font-size: 8px;
+    }
+
+    .reserve-section-left-text{
+        font-size: 10px;
+    }
+
+    .reserve-section-right-box{
+        gap: 10px;
+    }
+
+    .reserve-section-right-title{
+        font-size: 14px;
+    }
+
+    .reserve-section-right-text{
+        font-size: 11px;
+    }
+
+    .reserve-section-right-box{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .reserve-section-right-img{
+        max-width: 80px;
+    }
+    .reserve-section-right-img:nth-child(2){
+        display: none;
+    }
+}
+
