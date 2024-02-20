@@ -1,6 +1,6 @@
 .header{
     grid-column: 1/-1;
-    background:linear-gradient(to bottom , #4d4c4c4f,#000000),url(../image/frame-meat-vegetables.jpg);
+    background:linear-gradient(to bottom , #4d4c4c4f,#000000),url(../image/frame-meat-vegetables-min.webp);
     color: #fff;
     background-repeat: no-repeat;
     background-size: cover;

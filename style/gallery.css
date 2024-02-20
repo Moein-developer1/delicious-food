@@ -25,27 +25,27 @@
 
 .gallery-img1{
     grid-area: img1;
-    background-image: url(../image/late\ 3.jpg);
+    background-image: url(../image/istockphoto-1372294434.webp);
 }   
 
 .gallery-img2{
     grid-area: img2;
-    background-image: url(../image/pizaa\ 3.jpg);
+    background-image: url(../image/pizaa\ 3-min.webp);
 }
 
 .gallery-img3{
     grid-area: img3;
-    background-image: url(../image/egg\ 1.jpg);
+    background-image: url(../image/egg\ 1-min.webp);
 }
 
 .gallery-img4{
     grid-area: img4;
-    background-image: url(../image/salad\ 5.jpg);
+    background-image: url(../image/salad\ 5-min.webp);
 }
 
 .gallery-img5{
     grid-area: img5;
-    background-image: url(../image/steak.jpg);
+    background-image: url(../image/steak-min.webp);
 }
 
 

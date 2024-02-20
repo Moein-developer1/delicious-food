@@ -12,7 +12,7 @@
     display: grid;
     grid-template-columns: 50px repeat(4,1fr) 50px;
     padding: 2rem;
-    background: linear-gradient(to bottom , #4d4c4c4f,#000000),url(../image/resturant\ 4.jpg);
+    background: linear-gradient(to bottom , #4d4c4c4f,#000000),url(../image/resturant\ 4-min.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
